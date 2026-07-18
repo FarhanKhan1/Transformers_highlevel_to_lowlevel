@@ -5,7 +5,7 @@ classifier = pipeline("sentiment-analysis")
 print("Ready!")
 
 while True:
-    text = input("Enter text (q to quit): ")
+    text = input(["Enter text (q to quit): "])
 
     if text.lower() == "q":
         break
